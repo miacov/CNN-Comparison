@@ -2,25 +2,6 @@
 
 Comparison of LeNet CNN Architecture Variants with Fashion MNIST Dataset
 
-## Results
-
-| Model (@ best epoch) | Training top-1 accuracy (%) | Validation top-1 accuracy (%) | Testing top-1 accuracy (%) |
-|:----------------------:|:-----:|:-----:|:-----:|
-| Baseline (@ epoch 14)  | 90.9% | 89.6% |  N/A  |
-| Variant 1 (@ epoch 15) | 92.1% | 90.3% |  N/A  |
-| Variant 2 (@ epoch 14) | 94.9% | 91.6% |  N/A  |
-| Variant 3 (@ epoch 13) | 94.7% | 91.9% |  N/A  |
-| Variant 4 (@ epoch 15) | 95.7% | 92.6% | 92.5% |
-| Variant 4 retrained on train + val data (@ 15) | 95.7% |  N/A  | 93% |
-
-Variant 4 testing confusions:
-
-![Best model cm](/graphs/cm_best_model.png)
-
-Retrained Variant 4 testing confusions:
-
-![Best model retrained cm](/graphs/cm_best_model_retrained.png)
-
 ## Models
 ### Baseline
 Original LeNet 5 architecture changed to use ReLU activation functions and max-pooling layers
@@ -57,6 +38,25 @@ Batch normalization layers added before ReLU activations
 ![Variant 4](/architectures/model_4.png)
 
 ![Variant 4 metrics](/graphs/lenet5_v4_metrics.png)
+
+## Results
+
+| Model (@ best epoch) | Training top-1 accuracy (%) | Validation top-1 accuracy (%) | Testing top-1 accuracy (%) |
+|:----------------------:|:-----:|:-----:|:-----:|
+| Baseline (@ epoch 14)  | 90.9% | 89.6% |  N/A  |
+| Variant 1 (@ epoch 15) | 92.1% | 90.3% |  N/A  |
+| Variant 2 (@ epoch 14) | 94.9% | 91.6% |  N/A  |
+| Variant 3 (@ epoch 13) | 94.7% | 91.9% |  N/A  |
+| Variant 4 (@ epoch 15) | 95.7% | 92.6% | 92.5% |
+| Variant 4 retrained on train + val data (@ 15) | 95.7% |  N/A  | 93% |
+
+Variant 4 testing confusions:
+
+![Best model cm](/graphs/cm_best_model.png)
+
+Retrained Variant 4 testing confusions:
+
+![Best model retrained cm](/graphs/cm_best_model_retrained.png)
 
 ## Dataset
 
