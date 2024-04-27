@@ -48,7 +48,7 @@ Batch normalization layers added before ReLU activations
 | Variant 2 (@ epoch 14) | 94.9% | 91.6% |  N/A  |
 | Variant 3 (@ epoch 13) | 94.7% | 91.9% |  N/A  |
 | Variant 4 (@ epoch 15) | 95.7% | 92.6% | 92.5% |
-| Variant 4 retrained on train and val data (@ epoch 15) | 95.7% |  N/A  | 93% |
+| Variant 4 retrained on train + val data (@ epoch 15) | 95.7% |  N/A  | 93% |
 
 Variant 4 testing confusions:
 
