@@ -50,13 +50,11 @@ Batch normalization layers added before ReLU activations
 | Variant 4 (@ epoch 15) | 95.7% | 92.6% | 92.5% |
 | Variant 4 retrained on train + val data (@ epoch 15) | 95.7% |  N/A  | 93% |
 
-Variant 4 testing confusions:
+| Variant 4 testing confusions | Retrained Variant 4 testing confusions |
+|:----------------------------:|:--------------------------------------:|
+|![Best model cm](/graphs/cm_best_model.png)|![Best model retrained cm](/graphs/cm_best_model_retrained.png)|
 
-![Best model cm](/graphs/cm_best_model.png)
-
-Retrained Variant 4 testing confusions:
-
-![Best model retrained cm](/graphs/cm_best_model_retrained.png)
+More information can be found in `report.pdf`.
 
 ## Dataset
 
