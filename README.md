@@ -54,7 +54,7 @@ Batch normalization layers added before ReLU activations
 |:----------------------------:|:--------------------------------------:|
 |![Best model cm](/graphs/cm_best_model.png)|![Best model retrained cm](/graphs/cm_best_model_retrained.png)|
 
-More information can be found in `report.pdf`.
+Each model model was trained using cross-entropy loss and the Adam optimizer with an initial learning rate of 0.001. Weights were initialized using a Kaiming  uniform distribution. Batch size was set to 32. More information can be found in `report.pdf`.
 
 ## Dataset
 
